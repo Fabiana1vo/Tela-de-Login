@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;600;700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    background: url("/img/thumbnail\ \(1\).svg") no-repeat; 
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.container {
+    margin-top: 80px;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    border-radius: 16px;
+    /*EFEITO GLASS*/
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+.imagem {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+ }
+
+.conteudo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    padding:1rem;
+    color: #fff;
+ }
+
+.header{
+    margin-bottom: 15vh;
+    margin-top: -15vh;     
+
+} 
+
+.header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+} 
+
+label{
+font-size: 18px;
+font-weight: bolder;
+margin-bottom: 5px;
+ padding: 10px;
+}
+
+
+.input-group{
+     display: flex;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.input-box1 input
+{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+    width: 320px;
+
+}
+.input-box2 input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem; 
+    width: 320px;
+    margin-bottom: 50px;
+}
+
+button{
+    background-color: #6c63ff;
+    color: #fff;
+    height: 50px;
+    border-radius: 10px;
+    width: 40%;
+     font-size: 18px;
+    cursor: pointer;
+    margin-left: 32vh;
+  }
+
+button a
+{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-weight: bolder;
+    
+}
+
+button:hover
+{
+   background-color: #7971ff; 
+}
